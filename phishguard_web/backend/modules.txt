@@ -1,0 +1,95 @@
+MODULE
+title:What is Phishing?
+icon:🎣
+SLIDE
+heading:What is Phishing?
+body:Phishing is a cyber attack where criminals pretend to be\na trusted person to trick you into giving sensitive info —\nlike passwords, credit card numbers, or personal data.\n\nThe name comes from 'fishing' — attackers cast a wide net\nhoping someone will take the bait.\n\nKey fact: Phishing causes over 80% of data breaches worldwide.
+highlight:Phishing = Fake identity + Deception + Theft
+END_SLIDE
+SLIDE
+heading:How Big is the Problem?
+body:3.4 BILLION phishing emails are sent every single day.\n\n1 in 99 emails is a phishing attack.\n\nAverage cost of a phishing attack on a business: $1.6 million.\n\n97% of users cannot identify a sophisticated phishing email.\n\nEvery 11 seconds, a business falls victim to a phishing attack.
+highlight:Anyone can be a target — awareness is your best defence.
+END_SLIDE
+SLIDE
+heading:The Attack Lifecycle
+body:Step 1 — RESEARCH:  Attacker gathers info about you.\nStep 2 — SETUP:     Creates a fake website or email.\nStep 3 — ATTACK:    Sends the phishing message.\nStep 4 — COLLECT:   Victim clicks, enters data — stolen!\nStep 5 — EXPLOIT:   Credentials used for fraud or sold.
+highlight:Knowing the lifecycle helps you spot attacks early.
+END_SLIDE
+END_MODULE
+MODULE
+title:Types of Phishing
+icon:📧
+SLIDE
+heading:Email Phishing — Most Common
+body:Attackers send mass emails impersonating trusted brands:\n\n  - Banks: 'your account is locked'\n  - PayPal, Amazon: 'verify your account'\n  - Government: 'tax refund available'\n\nThe emails look professional with real logos.\n\nRed flag: The sender email is slightly wrong.\n  Real:  support@paypal.com\n  Fake:  support@paypa1.com
+highlight:Always check the FULL sender email address.
+END_SLIDE
+SLIDE
+heading:Spear Phishing — Targeted Attack
+body:A PERSONALISED attack targeting one specific person.\n\nThe attacker researches you first:\n  - Your name, job title, company\n  - Your boss's name\n  - Recent projects or events\n\nBecause it feels personal and urgent, people trust it more.\n\n95% of enterprise attacks begin with spear phishing.
+highlight:If an email feels personal and urgent — verify by phone first.
+END_SLIDE
+SLIDE
+heading:Smishing, Vishing and Others
+body:Phishing happens across many channels:\n\nSMISHING (SMS): Fake texts about parcels or bank cards.\n\nVISHING (Voice): Phone calls from fake bank or Microsoft.\n\nPHARMING: Malware redirects you to a fake website.\n\nWHALING: Spear phishing targeting CEOs specifically.
+highlight:Phishing is on every channel — not just email.
+END_SLIDE
+END_MODULE
+MODULE
+title:Email Red Flags
+icon:🚩
+SLIDE
+heading:Red Flag 1 — Suspicious Sender
+body:Common tricks attackers use in email addresses:\n\n  Typosquatting:  paypa1.com  (number 1, not letter l)\n  Extra words:    paypal-security.com\n  Wrong domain:   support@paypal.helpdesk.ru\n  Free email:     paypal.support@gmail.com\n\nHOW TO CHECK:\n  Click or hover the sender name.\n  Look at the full email in the < > brackets.
+highlight:Never trust the display name — read the FULL email address.
+END_SLIDE
+SLIDE
+heading:Red Flag 2 — Urgency and Threats
+body:Common urgency phrases to watch for:\n\n  'Your account will be SUSPENDED in 24 hours!'\n  'IMMEDIATE ACTION REQUIRED'\n  'Final warning before legal action'\n\nWhy it works: Panic stops careful thinking.\nAttackers WANT you to act fast without checking.\n\nRULE: The more urgent an email feels, the MORE\ncarefully you should slow down and verify it.
+highlight:Urgency is manipulation. Slow down — verify first.
+END_SLIDE
+SLIDE
+heading:Red Flag 3 — Links and Attachments
+body:LINKS — How to spot fakes:\n  Hover (don't click!) to see the real URL.\n  Real: https://www.paypal.com/account\n  Fake: https://paypal.account-verify.xyz/login\n  HTTPS does NOT mean the site is safe!\n\nATTACHMENTS — Never open:\n  .exe  .zip  .doc  .xls from unknown senders.\n  Files asking you to 'Enable Macros'.
+highlight:Hover before you click. Scan before you open.
+END_SLIDE
+END_MODULE
+MODULE
+title:Fake URL Detection
+icon:🔗
+SLIDE
+heading:How to Read a URL Safely
+body:URL Structure:\n  https://  subdomain.  domain.  TLD  /path\n\nExample — REAL PayPal:\n  https://www.paypal.com/myaccount\n  Real owner = paypal.com\n\nExample — FAKE:\n  https://paypal.com.secure-login.xyz/myaccount\n  Real owner = secure-login.xyz  (NOT PayPal!)\n\nGOLDEN RULE: Read right-to-left from the first /
+highlight:The domain just before the / is who owns the site.
+END_SLIDE
+SLIDE
+heading:Real vs Fake — Side by Side
+body:Netflix — REAL:\n  https://www.netflix.com/login\n\nNetflix — FAKE:\n  https://netflix-account.com/login\n  https://netflix.com.account-verify.ru/login\n  https://bit.ly/nflx-verify  (hidden URL)\n\nApple ID — REAL:\n  https://appleid.apple.com\n\nApple ID — FAKE:\n  https://apple.id-locked.com/verify\n  https://appleid.apple.com.login.net/account
+highlight:Quick rule: if you see .com.anything — it's FAKE.
+END_SLIDE
+SLIDE
+heading:HTTPS — The Common Misconception
+body:Most people think: padlock = safe website.\n\nThis is WRONG.\n\nHTTPS padlock means:\n  Your connection to the site is encrypted.\n\nHTTPS does NOT mean:\n  The site is legitimate.\n  Your data is safe from the site owner.\n\nFACT: Over 80% of phishing sites now use HTTPS.\nGetting SSL is free and takes 5 minutes.
+highlight:HTTPS = encrypted connection. NOT = trusted website.
+END_SLIDE
+END_MODULE
+MODULE
+title:Best Practices
+icon:🛡
+SLIDE
+heading:Social Engineering — The Human Hack
+body:Common psychological tricks attackers use:\n\n  AUTHORITY:  'This is your CEO, do this NOW'\n  URGENCY:    'Act in 10 minutes or lose access'\n  FEAR:       'Legal action will be taken against you'\n  GREED:      'You have won a prize — claim it'\n  TRUST:      'Hi, it is David from IT'\n\nReal example: An employee received a fake CEO email\nrequesting a wire transfer of 150,000. Gone in hours.
+highlight:Attackers hack humans first — technology second.
+END_SLIDE
+SLIDE
+heading:Your Personal Defence Checklist
+body:BEFORE clicking any link:\n  Hover to preview the real URL.\n  Check the sender's full email address.\n  Ask: was I expecting this email?\n\nPASSWORDS:\n  Use a unique password for every account.\n  Use a password manager.\n\nTWO-FACTOR AUTHENTICATION (2FA):\n  Even if password stolen, 2FA blocks attackers.\n\nWHEN IN DOUBT:\n  Go directly to the official website — don't click.
+highlight:Best defence: pause before you click.
+END_SLIDE
+SLIDE
+heading:If You Have Been Phished
+body:Step 1 — Do not panic. Act calmly.\nStep 2 — Disconnect from the internet immediately.\nStep 3 — Change passwords from a SAFE device.\nStep 4 — Enable 2FA on all accounts.\nStep 5 — Report it to your IT team or bank.\nStep 6 — Scan device with antivirus.\nStep 7 — Monitor bank statements.\n\nReport to: Action Fraud (UK) or IC3 (USA).
+highlight:Speed matters — change passwords immediately.
+END_SLIDE
+END_MODULE

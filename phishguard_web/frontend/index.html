@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>PhishGuard - Phishing Awareness Training</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%A1%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <!-- Three.js is loaded from a CDN (pinned version). See README to host it locally instead. -->
+  <script type="importmap">
+  { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header id="topbar">
+    <a class="brand" href="#/home" aria-label="PhishGuard home"><span class="brand-icon">🛡</span> PhishGuard</a>
+    <span id="ai-badge" class="badge" role="status">checking…</span>
+  </header>
+
+  <main id="view" tabindex="-1" aria-live="polite"></main>
+
+  <noscript><p class="noscript">PhishGuard needs JavaScript enabled.</p></noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
